@@ -1,0 +1,49 @@
+#welcome_message_div
+{
+  margin-top: 20px;
+  padding-top: 20px;
+  height: 200px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(../../images/morning.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome_message
+{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #e9f2ff;
+
+}
+
+#top_section
+{
+  background-color: #0057e6;
+  margin-bottom: 40px;
+  width: 100%;
+  color: white;
+
+}
+
+#top_section h2, p, h1
+{
+  padding: 10px;
+}
+
+#x
+{
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+  color: white;
+}
