@@ -64,7 +64,7 @@ function createUser($fname, $username, $email, $userlvl){
 
 //Email Function
 
-    $message = "Welcome {$username} \r\n This is your password : {$password}\r\n You can login in http://domain.com/admin/admin_login.php";
+    $message = "Welcome {$username} \r\n This is your password : {$password}\r\n You can login in http://domain.com/admin/admin_login.php"; //template email since we are local hosting this 
 
     // In case any of our lines are larger than 70 characters, we should use wordwrap()
     //I think this is class work since I was sick and got this from Lexi
